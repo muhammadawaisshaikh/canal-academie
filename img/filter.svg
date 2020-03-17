@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M0 2H24V4H0z" transform="rotate(-180 12 10)"/>
+        <path fill="#1D1D1B" stroke="#FFF" stroke-width="2" d="M6 1H10V5H6z" transform="rotate(-180 12 10)"/>
+        <path fill="#1D1D1B" d="M3 2H5V4H3zM11 2H13V4H11z" transform="rotate(-180 12 10)"/>
+        <g>
+            <path fill="#FFF" d="M0 2H24V4H0z" transform="rotate(-180 12 10) translate(0 7)"/>
+            <path fill="#1D1D1B" d="M11 2H13V4H11zM19 2H21V4H19z" transform="rotate(-180 12 10) translate(0 7)"/>
+            <path fill="#1D1D1B" stroke="#FFF" stroke-width="2" d="M14 1H18V5H14z" transform="rotate(-180 12 10) translate(0 7)"/>
+        </g>
+        <g>
+            <path fill="#FFF" d="M0 2H24V4H0z" transform="rotate(-180 12 10) translate(0 14)"/>
+            <path fill="#1D1D1B" stroke="#FFF" stroke-width="2" d="M8 1H12V5H8z" transform="rotate(-180 12 10) translate(0 14)"/>
+            <path fill="#1D1D1B" d="M5 2H7V4H5zM13 2H15V4H13z" transform="rotate(-180 12 10) translate(0 14)"/>
+        </g>
+    </g>
+</svg>

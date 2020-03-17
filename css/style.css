@@ -1,0 +1,150 @@
+body
+{
+    font-family: 'Montserrat', sans-serif !important;
+    overflow-x: hidden !important;
+    background-color: #1d1d1b;
+}
+
+p, h1 ,h2 ,h3, h4, h5, h6, ul {
+    margin: 0 !important;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.all-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* header  */
+header {
+    height: 90px;
+    padding: 0 25px;
+    border-bottom: 1px solid #3d3d3b;
+}
+
+header .logo {
+    width: 99px;
+    padding: 30px 0;
+}
+
+header ul {
+    display: table;
+    float: right;
+}
+
+header ul img.user {
+    width: 40px;
+    height: 40px;
+}
+
+header ul li {
+    padding: 20px 30px;
+    border-left: 1px solid #3d3d3b;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+header ul li:first-child {
+    border-left: 0;
+}
+
+/* nav-area */
+.nav-area {
+    height: 90px;
+    border-bottom: 1px solid #3d3d3b;
+}
+
+.nav-area ul{
+    display: flex;
+}
+
+.nav-area ul li{
+    padding: 35px 20px;
+}
+
+.nav-area ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.nav-area .filter {
+    padding: 35px 40px;
+    border-left: 1px solid #3d3d3b;
+}
+
+.nav-area .filter img
+{
+    padding: 0 20px 0 0;
+}
+
+.nav-area .filter a {
+    padding: 35px 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.nav-area .filter span{
+    font-weight: 500;
+}
+
+/* sidenav */
+.sidenav 
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+      
+.sidenav a 
+{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+      
+.sidenav .closebtn 
+{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 30px;
+}
+      
+@media screen and (max-height: 450px) 
+{
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.mobile-nav { display: none; }
+
+
+
+@media only screen and (max-width: 600px) {
+    header{ padding: 0; }
+    header ul li { padding: 25px; }
+    .nav-area { display: none; }
+    .mobile-nav { display: block; }
+}
