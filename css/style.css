@@ -174,6 +174,7 @@ header ul li:first-child {
   font-size: 36px;
   color: #ffffff;
   padding-top: 20px;
+  font-family: 'Yeseva One', cursive;
 }
 
 .post-main .typo {
@@ -193,6 +194,7 @@ header ul li:first-child {
   font-size: 24px;
   color: #ffffff;
   padding-top: 20px;
+  font-family: 'Yeseva One', cursive;
 }
 
 .post-normal .typo {
@@ -208,6 +210,9 @@ header ul li:first-child {
     .nav-area { display: none; }
     .mobile-nav { display: block; }
 
+    .post .typo { display: none; }
     .post-main img {height: 435px;}
-    .post-normal img {height: 250px;}
+    .post-main .title { font-size: 24px; }
+    .post-normal img { height: 250px; }
+    .post-normal .title { font-size: 20px; }
 }
