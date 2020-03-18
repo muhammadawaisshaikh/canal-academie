@@ -382,6 +382,97 @@ header ul li:first-child {
     letter-spacing: 1px;
 }
 
+.sliding {
+    padding: 150px 25px;
+}
+
+.sliding .header h3 {
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid #3d3d3b;
+    font-size: 28px;
+    color: #ffffff;
+    font-family: 'Yeseva One', cursive;
+}
+
+.slides{
+    padding: 30px 0 0 0;
+}
+
+.slides .slide {
+    position: relative;
+}
+
+.slides .slide:focus {
+    outline: none;
+}
+
+.slides .slide img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.slides .slide .content
+{
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+    color: #ffffff;
+}
+
+.slides .slide .content h3
+{
+    font-family: 'Yeseva One', cursive;
+    font-size: 18px;
+    position: relative;
+    top: 20px;
+}
+
+.slides .slide .content a
+{
+    font-size: 12px;
+}
+
+.purpose {
+    padding: 0 0;
+}
+
+.purpose img {
+    width: 100%;
+}
+
+.purpose .b-green {
+    background-color: #6c8679;
+}
+
+.purpose .content {
+    color: #ffffff;
+    padding: 20% 25%;
+}
+
+.purpose p {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.purpose h3 {
+    font-size: 36px;
+    letter-spacing: normal;
+    line-height: 45px;
+    font-family: 'Yeseva One', cursive;
+    margin: 30px 0 !important;
+    
+}
+
+.purpose a {
+    font-size: 20px;
+    padding: 25px 135px;
+    color: #ffffff;
+    border: solid 1px rgba(255, 255, 255, 0.3);
+    font-family: 'Yeseva One', cursive;
+    position: relative;
+    top: 30px;
+}
 
 @media only screen and (max-width: 600px) {
     header{ padding: 0; }
@@ -412,4 +503,14 @@ header ul li:first-child {
     .discover { background-image: url('../img/purpose.png'); }
     .discover h3 {font-size: 24px;}
     .discover a { padding: 20px; display: block; }
+
+    .purpose h3{line-height: 30px; font-size: 24px;}
+    .purpose .content{padding: 5%;}
+    .purpose a {
+        display: block; 
+        font-size: 16px; 
+        background: #000000;
+        padding: 20px;
+        text-align: center;
+    }
 }

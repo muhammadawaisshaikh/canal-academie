@@ -7,13 +7,13 @@ function closeNav() {
 }
 
 // slider-carousel
-$('.slider-carousel').slick({
+$('.slides').slick({
   dots: false,
   prevArrow: false,
   nextArrow: false,
   infinite: false,
   speed: 300,
-  slidesToShow: 1,
+  slidesToShow: 4,
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3000,
@@ -21,7 +21,7 @@ $('.slider-carousel').slick({
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 1,
+        slidesToShow: 4,
         slidesToScroll: 1,
         infinite: true,
         dots: true,
