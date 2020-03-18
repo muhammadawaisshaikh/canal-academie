@@ -474,6 +474,64 @@ header ul li:first-child {
     top: 30px;
 }
 
+footer {
+    padding: 150px 0;
+    color: #ffffff;
+}
+
+footer ul {
+    padding: 15px 0 15px 0;
+    list-style: none;
+    color: #b5b5aa;
+}
+
+footer p {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+footer ul li
+{
+    padding: 15px 0 0 0;
+}
+
+footer .socials{
+    padding: 30px 0 0 0;
+}
+
+footer .socials a {
+    border: solid 1px #77e2b6;
+    color: #ffffff;
+    padding: 20px 25px;
+}
+
+footer .input-area h3 {
+    font-size: 20px;
+    font-family: 'Yeseva One', cursive;
+    padding-bottom: 15px;
+}
+
+footer .input-area input
+{
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid #3d3d3b;
+    padding: 20px 15px;
+}
+
+footer .input-area a
+{
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid #3d3d3b;
+    padding: 20px;
+    position: relative;
+    top: 2px;
+    left: 0;
+}
+
 @media only screen and (max-width: 600px) {
     header{ padding: 0; }
     header ul li { padding: 25px; }
@@ -512,5 +570,14 @@ header ul li:first-child {
         background: #000000;
         padding: 20px;
         text-align: center;
+        top: 0;
+    }
+
+    footer {padding: 100px 0; text-align: center; }
+
+    footer .input-area
+    {
+        position: relative;
+        top: 50px;
     }
 }
